@@ -34,10 +34,10 @@
 }
 
 @media (min-width: 76.8rem) {
-    /* .container {
+    .container {
         padding: 10.2rem 16.3rem 16.3rem 16.3rem;
 
-    } */
+    }
 
     .cards-container {
         display: grid;
