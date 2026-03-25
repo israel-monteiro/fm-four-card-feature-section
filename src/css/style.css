@@ -89,7 +89,6 @@ body {
 
 .resource-card img {
     width: 6.4rem;
-    height: 6.4rem;
     flex-shrink: 0;
     align-self: flex-end;
     margin-block-start: var(--spacing-400);
