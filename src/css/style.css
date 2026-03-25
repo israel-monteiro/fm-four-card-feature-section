@@ -6,7 +6,7 @@ body {
     font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    background: #FAFAFA;
+    background: var(--color-white-100);
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 6rem;
     
 
     padding: 5.6rem 3rem 4.6rem 2.9rem;
@@ -43,7 +43,7 @@ body {
     text-align: center;
     line-height: 140%;
     letter-spacing: 0.104px;
-    margin-top: var(--spacing-200, 16px)
+    margin-top: var(--spacing-200, 1.6rem)
 }
 
 .cards-container {
@@ -59,23 +59,22 @@ body {
 .resource-card {
     display: flex;
     width: 100%;
-    max-width: 350px;
-    min-width: 314px;
-    height: 250px;
-    padding: var(--spacing-400, 32px);
+    max-width: 35rem;
+    min-width: 31.4rem;
+    height: 25rem;
+    padding: var(--spacing-400, 3.2rem);
     flex-direction: column;
     align-items: flex-start;
-    /* gap: var(--spacing-400, 32px); */
 
-    border-radius: var(--spacing-100, 8px);
+    border-radius: var(--spacing-100, 0.8rem);
     background: var(--color-white, #FFF);
 
     /* Drop Shadow */
-    box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.50);
+    box-shadow: 0 1.5rem 3rem -1.1rem rgba(131, 166, 210, 0.50);
 }
 
 
-.resource-card h3 {
+.resource-card h2 {
     color: var(--color-grey-500, #4D4F62);
     font-size: 2rem;
     font-weight: 600;
@@ -94,7 +93,7 @@ body {
     width: 6.4rem;
     height: 6.4rem;
     flex-shrink: 0;
-    align-self: self-end;
+    align-self: flex-end;
     margin-top: var(--spacing-400);
 }
 
