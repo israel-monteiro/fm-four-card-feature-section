@@ -29,7 +29,7 @@ body {
     letter-spacing: 0.25px;
 }
 
-.main-information h2 {
+.main-information .eyebrow {
     color: var(--color-grey-500, #4D4F62);
     text-align: center;
     font-size: 2.4rem;
@@ -58,12 +58,14 @@ body {
 
 .resource-card {
     display: flex;
-    /* width: 316px; */
-    /* height: 250px; */
+    width: 100%;
+    max-width: 350px;
+    min-width: 314px;
+    height: 250px;
     padding: var(--spacing-400, 32px);
     flex-direction: column;
     align-items: flex-start;
-    gap: var(--spacing-400, 32px);
+    /* gap: var(--spacing-400, 32px); */
 
     border-radius: var(--spacing-100, 8px);
     background: var(--color-white, #FFF);
@@ -85,13 +87,15 @@ body {
     font-size: 1.3rem;
     line-height: 160%;
     letter-spacing: 0.09px;
+    margin-top: 0.6rem;
 }
 
 .resource-card img {
-    width: 64px;
-    height: 64px;
+    width: 6.4rem;
+    height: 6.4rem;
     flex-shrink: 0;
     align-self: self-end;
+    margin-top: var(--spacing-400);
 }
 
 .supervisor {
