@@ -11,7 +11,7 @@
             ". team-builder team-builder ."
             "supervisor supervisor karma karma"
             ". calculator calculator .";
-        gap: var(--spacing-400, 32px);
+        gap: var(--spacing-400, 3.2rem);
     }
 
 
@@ -34,6 +34,11 @@
 }
 
 @media (min-width: 76.8rem) {
+    .container {
+        padding: 10.2rem 16.3rem 16.3rem 16.3rem;
+
+    }
+
     .cards-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -56,11 +61,11 @@
     }
 
     .resource-card h2 {
-        color: var(--color-grey-500, #4D4F62);
+        color: var(--color-grey-500);
         font-size: 2rem;
         font-weight: 600;
         line-height: 135%;
     }
 
-    
+
 }
