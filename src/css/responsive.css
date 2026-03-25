@@ -1,0 +1,66 @@
+@media (min-width: 42.5rem) {
+    .main-information {
+        max-width: 54rem;
+        width: 100%;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            ". team-builder team-builder ."
+            "supervisor supervisor karma karma"
+            ". calculator calculator .";
+        gap: var(--spacing-400, 32px);
+    }
+
+
+
+    .team-builder {
+        grid-area: team-builder;
+    }
+
+    .supervisor {
+        grid-area: supervisor;
+    }
+
+    .karma {
+        grid-area: karma;
+    }
+
+    .calculator {
+        grid-area: calculator;
+    }
+}
+
+@media (min-width: 76.8rem) {
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            ". team-builder ."
+            "supervisor team-builder calculator"
+            "supervisor karma calculator"
+            ". karma ."
+
+        ;
+        gap: var(--spacing-400, 32px);
+    }
+
+    .main-information h1 {
+        font-size: 3.6rem;
+    }
+
+    .main-information .eyebrow {
+        font-size: 3.6rem;
+    }
+
+    .resource-card h3 {
+        color: var(--color-grey-500, #4D4F62);
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 135%;
+    }
+
+    
+}
