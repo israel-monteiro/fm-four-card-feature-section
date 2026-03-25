@@ -1,5 +1,5 @@
 html {
-    font-size: calc(10 / 16 * 1rem);
+    font-size: 62.5%;
 }
 
 body {
@@ -61,7 +61,7 @@ body {
     width: 100%;
     max-width: 35rem;
     min-width: 31.4rem;
-    height: 25rem;
+    min-height: 25rem;
     padding: var(--spacing-400, 3.2rem);
     flex-direction: column;
     align-items: flex-start;
@@ -86,7 +86,7 @@ body {
     font-size: 1.3rem;
     line-height: 160%;
     letter-spacing: 0.009rem;
-    margin-top: 0.6rem;
+    margin-block-start: 0.6rem;
 }
 
 .resource-card img {
@@ -94,7 +94,7 @@ body {
     height: 6.4rem;
     flex-shrink: 0;
     align-self: flex-end;
-    margin-top: var(--spacing-400);
+    margin-block-start: var(--spacing-400);
 }
 
 .supervisor {
